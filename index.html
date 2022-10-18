@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="es">
+  
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Blog-Los Viajeros</title>      
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+ 
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+      <link rel="stylesheet" href="./styles/styles.css">
+  </head>
+  
+  <body>
+    <nav class="navbar navbar-expand-lg bg-custom sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold" href="#"> <img src="./assets/Brujula logo.png" alt="Logo Brujula" width="30" height="24" class="d-inline-block align-text-top"> Los Viajeros</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <p class="m-0 text-dark">Menú</p> 
+        </button>
+        <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end" id="navbarNav">
+          <ul class="navbar-nav d-flex aling-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./pages/contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./pages/nosotros.html">Acerca de Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./pages/login.html">Login</a>
+            </li>
+            <li class="nav-item">
+              <button class="btn btn-custom ms-2" type="button" data-bs-toggle="modal" data-bs-target="#modal1">Suscribirse</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+              <section>
+                     <div class="modal" id="modal1" tabindex="-1">
+                      <div class="modal-dialog">
+                      <div class="modal-content">
+                      <div class="modal-header">
+                           <h5 class="modal-title">Suscribirse</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                       </div>
+                     <div class="modal-body">
+                      <ul class="list-group">
+                        <li class="list-group-item">
+                          <label for="email">Correo Electronico</label><br>
+                          <input type="email" placeholder="ejemplo123@gmail.com">
+                        </li>
+                        <li class="list-group-item">
+                          <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                          <label class="form-check-label" for="secondCheckbox" aria-required="true">Acepto recibir notificaciones
+                            por mail.</label>
+                        </li>
+                        <div class="modal-footer">
+                          <button  type="button" class="btn btn-custom">
+                            <a href="./pages/error404.html" class="link"> Enviar</a></button>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+              </section>
+                   </div>
+                   </div>
+                   </div>
+         </section>
+
+
+    <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner"> 
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="./assets/carrousel1.jpg" alt="first slide" width="620px" height="450px">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="./assets/carrousel2.jpg" alt="second slide" width="620px" height="450px">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="./assets/carrousel3.jpg" alt="third slide" width="620px" height="450px">
+        </div>
+        <a class="carousel-control-prev" href="#carouseIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only"></span>
+        </a>
+        <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only"></span>
+        </a>
+      </div>
+    </div>
+
+    <section class="container pt-5 d-flex text-center">
+      <h1>Bienvenido al blog de los viajeros, eligí tu próximo destino...</h1>
+    </section>
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="card-group col-lg-8">
+          <article class="card mx-2">
+                <img class="card-img-top" src="./assets/salto-del-agrio-1024x683.jpg" alt="Cascada Salto del Agrio">
+                <div class="card-body">
+                  <h5 class="card-title">Salto del Agrio</h5>
+                  <p class="card-text">Es una imponente cascada de unos 45 mts de altura enmarcada en un amplio cañón formado por sucesivas coladas de lava, producto de la antigua actividad volcánica.
+                    El salto del Agrio para los mapuches siempre fue un lugar de culto. Es custodiado por un grupo de araucarias que junto al volcán Copahue le agregan color a esta verdadera postal.
+                    Un lugar mágico para deslumbrarse con la madre naturaleza que, de vez en cuando, genera maravillas como esta. Sencillamente, un sitio imperdible para quien esté recorriendo la zona.</p>
+                  <button class="entrance button-items-art">
+                  <a class="items-blogs" href="./pages/SaldodelAgrio.html">Ver más</a></button>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+          </article>
+          <article class="card mx-2" >
+                <img class="card-img-top" src="./assets/conodearita.jpg" alt="Cono de Arita - Salta">
+                <div class="card-body">
+                  <h5 class="card-title">Cono de Arita</h5>
+                  <p class="card-text">El Cono de Arita es una de las formaciones naturales más asombrosas de la Argentina, está ubicado en la puna salteña entre las poblaciones de Caipe y Tolar Grande a 600 kilómetros de la ciudad.
+                    Su nombre Arita fue dado por el antiguo pueblo aborigen que vivía en la zona, en lengua aymará significa “filoso” o “punzante”, fue el mejor adjetivo que esta comunidad encontró para describir esta formación gigantesca de color marrón.El Cono de Arita está en el extremo sur del Salar de Arizaro, el cual se encuentra a más de 3.690 metros sobre el nivel del mar. 
+                  </p>
+                  <button class="button-items-art">
+                  <a class="items-blogs" href="./pages/ConodeArita.html">Ver más</a></button>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+          </article>
+          <article class="card mx-2">
+                <img class="card-img-top" src="./assets/glaciar-perito-moreno_15_202008140713460.png" alt="Glaciar Perito Moreno">
+                <div class="card-body">
+                  <h5 class="card-title">Glaciar Perito Moreno</h5>
+                  <p class="card-text">El Glaciar Perito Moreno es uno de espectáculos naturales más impactantes de La Patagonia. Es una gran masa de hielo de 30 kilómetros de largo, 5 de ancho con una altura que alcanza los 60 metros. Sus proporciones son tan descomunales que hay que verlas en directo para comprenderlas.
+                    Una manera de poder observarlo es a través de las pasarelas del glaciar Perito Moreno que bordean el frente del glaciar y se encuentran a 30 kilómetros de la entrada al Parque Nacional Los Glaciares, declarado Patrimonio de la Humanidad por la UNESCO en el año 1981.
+                  </p>
+                  <button class=" button-items-art">
+                  <a class="items-blogs" href="./pages/Glaciarperitomoreno.html">Ver más</a></button>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+          </article>
+        </div>
+        <div class="col-lg-4">
+          <div class="card mb-4">
+                <div class="card-header bg-success text-white" style="background-color:#C4ABA4 ;">Buscar</div>
+                <section class="card-body" style="background-color: #CAABA4 ;">
+                  <div class="input-group">
+                    <input class="form-control" type="text" placeholder="Tu proximo destino..." aria-label="enter search term... " aria-describedby="button-search">
+                    <a class="btn btn-success text-white" href="./pages/error404.html" role="button">Ver mas</a>
+                  </div>
+                </section>
+          </div>
+          <div class="mb-4">
+                  <a href="./pages/error404.html" target="_blank">
+                    <img src="./assets/anuncio.jpg" alt="anuncio-pedidos-ya" class="img-fluid d-none d-lg-block d-sm-block">
+                  </a>
+          </div>
+          <div class="nuestros-blogs">
+            <h4 class="d-flex d-flex align-items-center justify-content-center">Nuestros Blogs</h4>
+            <ul class="lista-blogs ps-0 d-flex flex-column align-items-center justify-content-center" >
+              <li class="py-1">
+                <button class="button-items">
+                  <a class="items-blogs" href="./pages/ConodeArita.html">Cono de Arita</a>
+                </button>
+              </li>
+              <li class="py-1">
+                <button class="button-items">
+                  <a class="items-blogs" href="./pages/SaldodelAgrio.html">Salto Del Agrio</a>
+                </button>
+              </li>
+              <li class="py-1">
+                <button class="button-items">
+                  <a class="items-blogs" href="./pages/BanadoLaEstrella.html">Bañado la Estrella</a>
+                </button>
+              </li>
+              <li class="py-1">
+                <button class="button-items">
+                  <a class="items-blogs" href="./pages/Glaciarperitomoreno.html">Glaciar Perito Moreno</a>
+                </button>
+              </li>
+              <li class="py-1">
+                <button class="button-items">
+                  <a class="items-blogs" href="./pages/Purmamarca.html">Purmamarca</a>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>  
+      </div>
+    </div>
+
+    <article class="galeria">
+        <h1 class="py-2 title-galery">Galería de Imagenes</h1>      
+        <div class="container pt-3 d-flex flex-column flex-sm-column flex-md-row flex-lg-row  flex-wrap">
+          <section class="imagen col-12 col-md-4 col-lg-3 px-2 py-2">
+            <img src="./assets/jujuy_7_colores.jpg" alt="jujuy cerro 7 colores" />
+            <div class="overlay">
+              <h2>NOMBRE DEL LUGAR</h2>
+              <a href="">Mas Información</a>
+            </div>
+          </section>
+          <section class="imagen col-12 col-md-4 col-lg-3 px-2 py-2">
+            <img
+              src="./assets/jujuy_salinas_grandes.jpg"
+              alt="jujuy salinas grandes"
+            />
+            <div class="overlay">
+              <h2>NOMBRE DEL LUGAR</h2>
+              <a href="">Mas Información</a>
+            </div>
+          </section>
+          <section class="imagen col-12 col-md-4 col-lg-3 px-2 py-2">
+            <img src="./assets/MDQ_Ba.jpg" alt="mar del plata buenos aires" />
+            <div class="overlay">
+              <h2>NOMBRE DEL LUGAR</h2>
+              <a href="">Mas Información</a>
+            </div>
+          </section>
+          <section class="imagen col-12 col-md-4 col-lg-3 px-2 py-2">
+            <img
+              src="./assets/Mendoza_parque_aconcagua.jpg"
+              alt="mendoza, aconcagua"
+            />
+            <div class="overlay">
+              <h2>NOMBRE DEL LUGAR</h2>
+              <a href="">Mas Información</a>
+            </div>
+          </section>
+          <section class="imagen col-12 col-md-4 col-lg-3 px-2 py-2">
+            <img src="./assets/misiones_iguazu.jpg" alt="misiones iguazu" />
+            <div class="overlay">
+              <h2>NOMBRE DEL LUGAR</h2>
+              <a href="">Mas Información</a>
+            </div>
+          </section>
+          <section class="imagen col-12 col-md-4 col-lg-3 px-2 py-2">
+            <img
+              src="./assets/Neuquen_paso_del_arco.jpg"
+              alt="neuquen paso del arco"
+            />
+            <div class="overlay">
+              <h2>NOMBRE DEL LUGAR</h2>
+              <a href="">Mas Información</a>
+            </div>
+          </section>
+          <section class="imagen col-12 col-md-4 col-lg-3 px-2 py-2">
+            <img src="./assets/Rio_negro_brc.jpg" alt="rio negro, bariloche" />
+            <div class="overlay">
+              <h2>NOMBRE DEL LUGAR</h2>
+              <a href="">Mas Información</a>
+            </div>
+          </section>
+          <section class="imagen col-12 col-md-4 col-lg-3 px-2 py-2">
+            <img
+              src="./assets/santa_cruz_perito_moreno.jpg"
+              alt="glaciar perito moreno, santa cruz"
+            />
+            <div class="overlay">
+              <h2>NOMBRE DEL LUGAR</h2>
+              <a href="">Mas Información</a>
+            </div>
+          </section>
+          <section class="imagen col-12 col-md-4 col-lg-3 px-2 py-2">
+            <img src="./assets/Tucuman_elcadillal.jpg" alt="el cadillal, tucuman" />
+            <div class="overlay">
+              <h2>NOMBRE DEL LUGAR</h2>
+              <a href="">Mas Información</a>
+            </div>
+          </section>
+          <section class="imagen col-12 col-md-4 col-lg-3 px-2 py-2">
+            <img
+              src="./assets/santa_cruz_parquelosglaciares.jpg"
+              alt="parque los glaciares, santa cruz"
+            />
+            <div class="overlay">
+              <h2>NOMBRE DEL LUGAR</h2>
+              <a href="">Mas Información</a>
+            </div>
+          </section>
+          <section class="imagen col-12 col-md-4 col-lg-3 px-2 py-2">
+            <img
+              src="./assets/rio_negro-cerroOtto.jpg"
+              alt="cerro otto, rio negro"
+            />
+            <div class="overlay">
+              <h2>NOMBRE DEL LUGAR</h2>
+              <a href="">Mas Información</a>
+            </div>
+          </section>
+          <section class="imagen col-12 col-md-4 col-lg-3 px-2 py-2">
+            <img
+              src="./assets/tucuman_villanougues.jpg"
+              alt="villa nougues, tucuman"
+            />
+            <div class="overlay">
+              <h2>NOMBRE DEL LUGAR</h2>
+              <a href="">Mas Información</a>
+            </div>
+          </section>
+        </div>
+    </article>
+
+    <footer class="container-fluid d-flex flex-column flex-lg-row mt-5">
+      <section class="col-12 col-lg-4 d-flex align-items-center justify-content-center">
+        <div class="m-2">
+          <img src="./assets/Brujula logo.png" alt="Logo" class="img-footer">
+        </div>
+      </section>
+      <section class="col-12 col-lg-4 d-flex align-items-center justify-content-center text-center enter">
+          <article class="my-2">
+            <h4>
+              Contacto
+            </h4>
+            <p>
+              <i class="bi bi-telephone-outbound-fill pe-3"></i>
+              Tel: +54 123456789
+            </p>
+            <p>
+              <i class="bi bi-envelope-fill pe-3"></i>
+              Email: LosViajeros@gmail.com
+            </p>
+            <p>
+              Conociendo Argentina, de la mejor manera
+            </p>
+          </article>        
+      </section>
+      <section class="col-12 col-lg-4 d-flex align-items-center justify-content-center">
+          <article class="">
+            <div class="my-2 ">
+              <a class="icon-footer" href="https://www.facebook.com/" target="_blank">
+                <i class="bi bi-facebook px-2"></i>
+              </a>
+              <a class="icon-footer" href="https://twitter.com/home" target="_blank">
+                <i class="bi bi-twitter px-2"></i>
+              </a>
+              <a class="icon-footer" href="https://www.instagram.com/" target="_blank">
+                <i class="bi bi-instagram px-2"></i>
+              </a>
+            </div>
+          </article>
+      </section>
+    </footer>
+
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html> 
